@@ -1,0 +1,21 @@
+Tramas para el universo X-men.
+Por Héctor Palacios. Feb 2013.
+
+Ejecutar
+./xmen.py config-3
+
+El archivo de configuracion
+config-3
+contiene la especificación del problema.
+
+En config-3-pddl se guardan los archivos temporales
+generados para resolver el problema.
+
+./xmen.py requiere que en este mismo
+directorio esté instalado el planificador Probe,
+con lo que el ejecutable estará en
+./seq-sat-probe/probe
+
+Probe está disponible en: 
+http://www.tecn.upf.es/~nlipovet/
+Entrando en ACTIVITIES/SOFTWARE
