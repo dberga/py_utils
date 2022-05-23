@@ -1,0 +1,51 @@
+Dispatcher selected state size 1.
+This is a unit task.
+Simplifying transitions... done!
+Conducting best first search with reopening closed nodes, (real) bound = 2147483647
+Initializing landmark cut heuristic...
+f = 8 [1 evaluated, 0 expanded, t=1.06s]
+Best heuristic value: 8 [g=0, 1 evaluated, 0 expanded, t=1.06s]
+f = 9 [13 evaluated, 1 expanded, t=1.24s]
+f = 10 [93 evaluated, 8 expanded, t=2.26s]
+Best heuristic value: 7 [g=3, 517 evaluated, 50 expanded, t=8.04s]
+f = 11 [817 evaluated, 80 expanded, t=12.6s]
+Best heuristic value: 6 [g=5, 818 evaluated, 81 expanded, t=12.62s]
+f = 12 [5474 evaluated, 582 expanded, t=75.14s]
+Best heuristic value: 5 [g=7, 5475 evaluated, 583 expanded, t=75.16s]
+Best heuristic value: 4 [g=8, 5790 evaluated, 611 expanded, t=79.8s]
+Best heuristic value: 3 [g=9, 5804 evaluated, 612 expanded, t=79.98s]
+Best heuristic value: 2 [g=10, 5819 evaluated, 613 expanded, t=80.12s]
+Best heuristic value: 1 [g=11, 5835 evaluated, 614 expanded, t=80.24s]
+Best heuristic value: 0 [g=12, 5852 evaluated, 615 expanded, t=80.34s]
+Solution found!
+Actual search time: 79.36s [t=80.42s]
+hmoveforward car3 x21 x22 x20 (1)
+hspin_1or2 car2 x11 x12 x22 (1)
+hspin_3or4 car3 x20 x21 x30 (1)
+vspin_3or4 car0 x10 x00 x11 (1)
+vspin_1or2 car2 x12 x22 x21 (1)
+hmovebackward car0 x10 x11 x12 (1)
+vspin_3or4 car7 x03 x13 x04 (1)
+hmovebackward car0 x11 x12 x13 (1)
+hmovebackward car0 x12 x13 x14 (1)
+hmovebackward car0 x13 x14 x15 (1)
+hspin_1or2 car0 x14 x15 x25 (1)
+vmoveforward car0 x15 x25 x05 (1)
+Plan length: 12 step(s).
+Plan cost: 12
+Initial state h value: 8.
+Expanded 616 state(s).
+Reopened 0 state(s).
+Evaluated 5871 state(s).
+Evaluations: 5871
+Generated 10751 state(s).
+Dead ends: 0 state(s).
+Expanded until last jump: 582 state(s).
+Reopened until last jump: 0 state(s).
+Evaluated until last jump: 5474 state(s).
+Generated until last jump: 10187 state(s).
+Search space hash size: 5871
+Search space hash bucket count: 6151
+Search time: 79.4s
+Total time: 80.42s
+Peak memory: 31760 KB

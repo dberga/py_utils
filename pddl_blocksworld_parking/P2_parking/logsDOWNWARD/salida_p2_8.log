@@ -1,0 +1,53 @@
+Dispatcher selected state size 1.
+This is a unit task.
+Simplifying transitions... done!
+Conducting best first search with reopening closed nodes, (real) bound = 2147483647
+Initializing landmark cut heuristic...
+f = 9 [1 evaluated, 0 expanded, t=1.32s]
+Best heuristic value: 9 [g=0, 1 evaluated, 0 expanded, t=1.32s]
+Best heuristic value: 8 [g=1, 4 evaluated, 1 expanded, t=1.38s]
+f = 10 [32 evaluated, 3 expanded, t=1.96s]
+Best heuristic value: 7 [g=3, 93 evaluated, 11 expanded, t=3.24s]
+Best heuristic value: 6 [g=4, 231 evaluated, 26 expanded, t=5.72s]
+f = 11 [275 evaluated, 30 expanded, t=6.52s]
+f = 12 [1675 evaluated, 211 expanded, t=30.74s]
+Best heuristic value: 5 [g=7, 2068 evaluated, 251 expanded, t=36.56s]
+f = 13 [9697 evaluated, 1302 expanded, 1 reopened, t=171.62s]
+Best heuristic value: 4 [g=9, 11909 evaluated, 1550 expanded, 1 reopened, t=203.62s]
+Best heuristic value: 3 [g=10, 16922 evaluated, 2132 expanded, 1 reopened, t=279.88s]
+Best heuristic value: 2 [g=11, 16933 evaluated, 2133 expanded, 1 reopened, t=279.96s]
+Best heuristic value: 1 [g=12, 16944 evaluated, 2134 expanded, 1 reopened, t=280.04s]
+Best heuristic value: 0 [g=13, 16955 evaluated, 2135 expanded, 1 reopened, t=280.12s]
+Solution found!
+Actual search time: 278.84s [t=280.16s]
+vspin_1or2 car7 x03 x13 x14 (1)
+hmovebackward car1 x01 x02 x03 (1)
+vspin_1or2 car0 x10 x00 x01 (1)
+vmovebackward car12 x20 x30 x40 (1)
+hmoveforward car2 x11 x12 x10 (1)
+hspin_3or4 car1 x02 x03 x12 (1)
+hspin_3or4 car2 x10 x11 x20 (1)
+vspin_1or2 car1 x02 x12 x11 (1)
+hmovebackward car0 x00 x01 x02 (1)
+hmovebackward car0 x01 x02 x03 (1)
+hmovebackward car0 x02 x03 x04 (1)
+hmovebackward car0 x03 x04 x05 (1)
+hspin_1or2 car0 x04 x05 x15 (1)
+Plan length: 13 step(s).
+Plan cost: 13
+Initial state h value: 9.
+Expanded 2136 state(s).
+Reopened 1 state(s).
+Evaluated 16966 state(s).
+Evaluations: 16966
+Generated 32519 state(s).
+Dead ends: 0 state(s).
+Expanded until last jump: 1302 state(s).
+Reopened until last jump: 1 state(s).
+Evaluated until last jump: 9697 state(s).
+Generated until last jump: 19073 state(s).
+Search space hash size: 16966
+Search space hash bucket count: 24593
+Search time: 278.92s
+Total time: 280.16s
+Peak memory: 55316 KB

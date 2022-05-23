@@ -1,0 +1,51 @@
+Dispatcher selected state size 1.
+This is a unit task.
+Simplifying transitions... done!
+Conducting best first search with reopening closed nodes, (real) bound = 2147483647
+Initializing landmark cut heuristic...
+f = 8 [1 evaluated, 0 expanded, t=0.8s]
+Best heuristic value: 8 [g=0, 1 evaluated, 0 expanded, t=0.8s]
+f = 9 [15 evaluated, 1 expanded, t=0.94s]
+f = 10 [107 evaluated, 9 expanded, t=1.78s]
+Best heuristic value: 7 [g=3, 573 evaluated, 54 expanded, t=5.92s]
+f = 11 [835 evaluated, 79 expanded, t=8.1s]
+Best heuristic value: 6 [g=5, 836 evaluated, 80 expanded, t=8.12s]
+f = 12 [5779 evaluated, 616 expanded, t=50.74s]
+Best heuristic value: 5 [g=7, 5780 evaluated, 617 expanded, t=50.74s]
+Best heuristic value: 4 [g=8, 6191 evaluated, 652 expanded, t=53.46s]
+Best heuristic value: 3 [g=9, 6207 evaluated, 653 expanded, t=53.56s]
+Best heuristic value: 2 [g=10, 6225 evaluated, 654 expanded, t=53.64s]
+Best heuristic value: 1 [g=11, 6489 evaluated, 670 expanded, t=55.24s]
+Best heuristic value: 0 [g=12, 6507 evaluated, 671 expanded, t=55.3s]
+Solution found!
+Actual search time: 54.54s [t=55.34s]
+vspin_3or4 car7 x03 x13 x04 (1)
+hmovebackward car2 x11 x12 x13 (1)
+vspin_3or4 car0 x10 x00 x11 (1)
+hspin_1or2 car8 x23 x24 x34 (1)
+hspin_1or2 car2 x12 x13 x23 (1)
+hmovebackward car0 x10 x11 x12 (1)
+vmovebackward car2 x13 x23 x33 (1)
+hmovebackward car0 x11 x12 x13 (1)
+hmovebackward car0 x12 x13 x14 (1)
+hmovebackward car0 x13 x14 x15 (1)
+hspin_1or2 car0 x14 x15 x25 (1)
+vmoveforward car0 x15 x25 x05 (1)
+Plan length: 12 step(s).
+Plan cost: 12
+Initial state h value: 8.
+Expanded 672 state(s).
+Reopened 0 state(s).
+Evaluated 6528 state(s).
+Evaluations: 6528
+Generated 12054 state(s).
+Dead ends: 0 state(s).
+Expanded until last jump: 616 state(s).
+Reopened until last jump: 0 state(s).
+Evaluated until last jump: 5779 state(s).
+Generated until last jump: 11007 state(s).
+Search space hash size: 6528
+Search space hash bucket count: 12289
+Search time: 54.56s
+Total time: 55.34s
+Peak memory: 24480 KB

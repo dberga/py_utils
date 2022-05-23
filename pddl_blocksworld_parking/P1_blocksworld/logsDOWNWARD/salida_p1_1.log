@@ -1,0 +1,59 @@
+Dispatcher selected state size 1.
+This is a unit task.
+Simplifying transitions... done!
+Conducting best first search with reopening closed nodes, (real) bound = 2147483647
+Initializing landmark cut heuristic...
+f = 11 [1 evaluated, 0 expanded, t=0.04s]
+Best heuristic value: 11 [g=0, 1 evaluated, 0 expanded, t=0.04s]
+Best heuristic value: 10 [g=1, 4 evaluated, 1 expanded, t=0.04s]
+f = 12 [7 evaluated, 2 expanded, t=0.04s]
+Best heuristic value: 9 [g=3, 8 evaluated, 3 expanded, t=0.04s]
+Best heuristic value: 8 [g=4, 13 evaluated, 4 expanded, t=0.04s]
+f = 13 [55 evaluated, 18 expanded, t=0.06s]
+Best heuristic value: 7 [g=6, 65 evaluated, 22 expanded, t=0.08s]
+f = 14 [111 evaluated, 38 expanded, t=0.1s]
+Best heuristic value: 6 [g=8, 127 evaluated, 43 expanded, t=0.1s]
+Best heuristic value: 5 [g=8, 413 evaluated, 133 expanded, t=0.26s]
+Best heuristic value: 4 [g=10, 433 evaluated, 138 expanded, t=0.26s]
+f = 15 [466 evaluated, 148 expanded, t=0.28s]
+Best heuristic value: 3 [g=12, 467 evaluated, 149 expanded, t=0.28s]
+f = 16 [1748 evaluated, 516 expanded, 1 reopened, t=0.92s]
+Best heuristic value: 2 [g=14, 1749 evaluated, 517 expanded, 1 reopened, t=0.92s]
+Best heuristic value: 1 [g=15, 1757 evaluated, 518 expanded, 1 reopened, t=0.92s]
+Best heuristic value: 0 [g=16, 1759 evaluated, 519 expanded, 1 reopened, t=0.92s]
+Solution found!
+Actual search time: 0.88s [t=0.92s]
+unstack b3 b2 (1)
+putdown b3 (1)
+unstack b2 b6 (1)
+stack b2 b3 (1)
+pickup2 b10 b6 (1)
+stack b10 b2 (1)
+unstack b4 b7 (1)
+stack b4 b6 (1)
+unstack2 b1 b7 b8 (1)
+stack b1 b10 (1)
+unstack b7 b8 (1)
+stack b7 b1 (1)
+unstack2 b5 b8 b9 (1)
+stack b5 b4 (1)
+pickup2 b9 b8 (1)
+stack b9 b7 (1)
+Plan length: 16 step(s).
+Plan cost: 16
+Initial state h value: 11.
+Expanded 520 state(s).
+Reopened 1 state(s).
+Evaluated 1761 state(s).
+Evaluations: 1761
+Generated 2639 state(s).
+Dead ends: 0 state(s).
+Expanded until last jump: 516 state(s).
+Reopened until last jump: 1 state(s).
+Evaluated until last jump: 1748 state(s).
+Generated until last jump: 2625 state(s).
+Search space hash size: 1761
+Search space hash bucket count: 3079
+Search time: 0.88s
+Total time: 0.92s
+Peak memory: 3972 KB
