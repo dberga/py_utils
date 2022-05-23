@@ -1,0 +1,53 @@
+; Numero de personajes
+max personajes extra = 5
+; Con el numero de genes interpretaremos la lista de variedades.
+num genes = 4
+
+*** Generacion inicial
+
+Nombre = Rogue
+Sexo = Mujer
+inicio genes =
+; notacion: 'variedad variedad' para cada gen
+fuerza-normal super-fuerza
+piel-mortal piel-mortal
+carne-debil carne-debil
+mirada-normal mirada-normal
+fin genes
+
+Nombre = Wolverine
+Sexo = hombre
+inicio genes =
+super-fuerza super-fuerza
+piel-normal piel-resistente
+autocuracion autocuracion
+mirada-normal mirada-normal
+fin genes
+
+Nombre = Mystique
+Sexo = Mujer
+inicio genes =
+super-fuerza super-fuerza
+piel-camaleon piel-camaleon
+carne-debil autocuracion
+mirada-fuego mirada-normal
+fin genes
+
+Nombre = Cyclope
+Sexo = Hombre
+inicio genes =
+super-fuerza fuerza-normal
+piel-normal piel-resistente
+carne-debil carne-debil
+mirada-fuego mirada-fuego
+fin genes
+
+*** Personajes requeridos
+Sexo = Mujer
+inicio genes =
+super-fuerza super-fuerza
+piel-resistente piel-resistente
+autocuracion autocuracion
+mirada-fuego mirada-fuego
+fin genes
+
